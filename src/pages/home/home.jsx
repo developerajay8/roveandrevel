@@ -6,7 +6,6 @@ import PortfolioGallery from "../../components/portfoliogallery";
 import AboutRoveRevel from "../../components/aboutroverevel";
 import TestimonialsSection from "../../components/testimonialssection";
 import ContactUsSection from "../../components/contactussection";
-import NewsletterFooter from "../../components/newsletterfooter";
 
 const Home = () => {
   return (
@@ -18,7 +17,7 @@ const Home = () => {
       <AboutRoveRevel/>
       <TestimonialsSection/>
       <ContactUsSection/>
-      <NewsletterFooter/>
+      
     </div>
   );
 };

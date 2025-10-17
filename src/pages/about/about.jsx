@@ -1,10 +1,14 @@
 import React from "react";
+import AboutSection from "../../components/aboutsection";
+import WhyStressSection from "../../components/whystresssection";
+import Assuredvalue from "../../components/assuredvalue";
 
 const About = () => {
   return (
-    <div className="text-center py-20">
-      <h2 className="text-3xl font-bold mb-4">About Us</h2>
-      <p className="text-gray-600">We are a team dedicated to building amazing web apps.</p>
+    <div className="">
+       <AboutSection/>
+       <WhyStressSection/>
+       <Assuredvalue/>
     </div>
   );
 };
