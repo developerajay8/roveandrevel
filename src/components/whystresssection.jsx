@@ -13,7 +13,7 @@ const WhyStressSection = () => {
                 </div>
 
                 {/* Main Content Grid */}
-                <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8">
+                {/* <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8">
           
           <div className="lg:col-span-7 space-y-6">
             <div className="">
@@ -95,6 +95,74 @@ const WhyStressSection = () => {
             </div>
           </div>
 
+        </div> */}
+
+        <div className="">
+            <div className="grid grid-cols-6 gap-8">
+                <div className="md:col-span-4 col-span-6 my-auto">
+                    <div className="text-[#5E5952] md:text-[23px] text-[18px] ">
+                                Rove & Revels Events Company - your partners in designing unforgettable celebrations. Welcome to Rove & Revels, where every detail reflects your story and every moment is crafted with care. As a full-service wedding and event management company, we specialize in creating seamless experiences that delight and inspire. With years of expertise and 100+ successful events behind us, we know how to turn your vision into an extraordinary reality. Trust us to make your occasion truly remarkable, filled with memories that last a lifetime. Lets celebrate together, the Rove & Revels way!
+                            </div>
+            </div>
+            <div className="md:col-span-2 col-span-6 md:mx-0 mx-auto">
+                <img src="/Baby shower backdrop idea.svg" alt="" />
+            </div>
+            </div>
+
+            <div className="grid grid-cols-6 gap-8 md:pt-0 pt-8">
+                <div className="md:col-span-2 col-span-6 md:mx-0 mx-auto">
+                    <div className="flex md:justify-around justify-between items-center pb-4">
+                                <div>
+                                    <div className="text-5xl sm:text-6xl font-bold text-gray-900 mb-2">
+                                        253
+                                    </div>
+                                    <div className="text-sm text-center sm:text-base font-medium text-orange-500">
+                                        Events Nailed
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div className="text-5xl sm:text-6xl font-bold text-gray-900 mb-2">
+                                       82
+                                    </div>
+                                    <div className="text-sm text-center sm:text-base font-medium text-orange-500">
+                                        Corpoaret Events
+                                    </div>
+                                </div>
+                            </div>
+                    <div className="">
+                <img src="/be6f330b-5db8-4009-ac70-6cfe4c118b5f.svg" alt="" />
+                </div>
+            </div>
+                <div className="md:col-span-4 col-span-6 mt-auto">
+                     <div className="flex md:justify-end justify-between items-center pb-4 ">
+                                <div className='md:me-43'>
+                                    <div className="text-5xl sm:text-6xl font-bold text-gray-900 mb-2">
+                                       146
+                                    </div>
+                                    <div className="text-sm text-center  sm:text-base font-medium text-orange-500">
+                                        Weddings
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div className="text-5xl sm:text-6xl font-bold text-gray-900 mb-2">
+                                       25
+                                    </div>
+                                    <div className="text-sm text-center sm:text-base font-medium text-orange-500">
+                                        Birthday parties
+                                    </div>
+                                </div>
+                            </div>
+                    <div className="text-[#5E5952] text-[24px] flex justify-end items-center">
+                                <img src="/image 123.svg" className='' alt="" />
+                            </div>
+            </div>
+            
+            </div>
+            <div className="">
+
+            </div>
         </div>
 
 
