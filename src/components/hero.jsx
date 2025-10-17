@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section aria-label="Hero" className="">
     
-        <div className="w-full relative bg-cover bg-center h-screen " style={{ backgroundImage: 'url("/heroimahe.svg")',  }}>
+        <div className="w-full relative bg-cover bg-center h-[600px] md:h-screen " style={{ backgroundImage: 'url("/heroimahe.svg")',  }}>
           <div className="absolute inset-0 bg-black/40"></div>
           <div className="max-w-[1240px]  mx-auto h-full px-4 md:px-6 pt-[128px]">
             <div className="max-w-2xl absolute text-white">

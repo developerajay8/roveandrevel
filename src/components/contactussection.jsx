@@ -178,13 +178,13 @@ const ContactUsSection = () => {
                   Select Subject?
                 </label>
                 <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
-                  {['General Inquiry', 'General Inquiry', 'General Inquiry', 'General Inquiry'].map((subject, index) => (
+                  {['General Inquiry', 'Support', 'Feedback', 'Collaboration'].map((subject, index) => (
                     <label key={index} className="flex items-center gap-2 cursor-pointer">
                       <input
                         type="radio"
                         name="subject"
                         value={subject}
-                        checked={formData.subject === subject && index === 0}
+                        checked={formData.subject === subject}
                         onChange={handleChange}
                         className="w-4 h-4 text-blue-600 border-gray-300 focus:ring-blue-500"
                       />

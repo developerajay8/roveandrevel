@@ -96,7 +96,7 @@ export default function NewsletterFooter() {
           </div>
 
           {/* Bottom Footer */}
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-8 border-t border-gray-700 text-[16px] ">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-8 border-t-2 border-[#6F6D6D] text-[16px] ">
             <p className="text-center md:text-left text-[#DBDADB]">Copyright © Designmonks All Rights Reserved</p>
             <div className="flex gap-6">
               <a href="#terms" className="text-[#DBDADB] transition-colors">Terms & Conditions</a>

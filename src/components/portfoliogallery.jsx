@@ -98,7 +98,7 @@ const PortfolioGallery = () => {
                 <img
                   src={item.image}
                   alt={item.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="w-full object-cover h-[300px] transition-transform duration-500 group-hover:scale-110"
                 />
               </div>
 

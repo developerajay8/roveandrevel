@@ -60,6 +60,10 @@ const AboutRoveRevel = () => {
           </div>
 
           {/* Right Image Section */}
+          
+
+
+
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
@@ -67,18 +71,20 @@ const AboutRoveRevel = () => {
                 alt="Event Setup"
                 className="w-full h-[300px] sm:h-[340px] lg:h-[400px] object-cover"
               />
-              
-              {/* Orange Badge */}
-              <div className="absolute bottom-3 right-3 bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-4 rounded-2xl shadow-xl">
-                <div className="text-3xl sm:text-4xl font-bold mb-1">15+</div>
-                <div className="text-sm sm:text-base font-medium">Years Experience</div>
-              </div>
             </div>
 
-            {/* Decorative Elements */}
+            {/* Orange Badge - Outside Image */}
+            <div className="absolute -bottom-6 -right-6 bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-4 rounded-2xl shadow-xl z-10">
+              <div className="text-3xl sm:text-4xl font-bold mb-1">15+</div>
+              <div className="text-sm sm:text-base font-medium">Years Experience</div>
+            </div>
+
+            {/* Decorative Element */}
             <div className="hidden lg:block absolute -bottom-4 -left-4 w-32 h-32 bg-blue-500/10 rounded-full blur-2xl"></div>
             <div className="hidden lg:block absolute -top-4 -right-4 w-32 h-32 bg-orange-500/10 rounded-full blur-2xl"></div>
           </div>
+
+        
 
         </div>
       </div>
