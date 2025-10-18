@@ -96,7 +96,7 @@ const ServicesHorizontalScroll = () => {
                   service.offsetTop ? "mt-0" : "mt-12 sm:mt-16 md:mt-20"
                 }`}
               >
-                <h3 className="mb-2 text-[18px] font-serif font-semibold text-[#000000] whitespace-pre-line">
+                <h3 className="mb-2 text-[21px] font-serif font-semibold text-[#000000] whitespace-pre-line">
                   {service.stitle}
                 </h3>
                 <div className=" overflow-hidden shadow-md">
@@ -107,7 +107,7 @@ const ServicesHorizontalScroll = () => {
                   />
                 </div>
 
-              <h3 className="mt-2 text-[18px] font-serif font-semibold text-[#000000] whitespace-pre-line">
+              <h3 className="mt-2 text-[21px] font-serif font-semibold text-[#000000] whitespace-pre-line">
                   {service.title}
                 </h3>
               </div>
