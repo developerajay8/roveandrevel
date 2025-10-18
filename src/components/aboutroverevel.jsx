@@ -67,7 +67,7 @@ const AboutRoveRevel = () => {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&h=600&fit=crop"
+                src="/assets/about.jpg"
                 alt="Event Setup"
                 className="w-full h-[300px] sm:h-[340px] lg:h-[400px] object-cover"
               />

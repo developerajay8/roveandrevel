@@ -25,8 +25,8 @@ const ContactUsSection = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#FCF8ED] py-10 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-[1240px] mx-auto">
+    <div className=" bg-[#FCF8ED] py-10 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1196px] mx-auto">
         
         {/* Header */}
         <div className="text-center mb-12">
@@ -42,7 +42,7 @@ const ContactUsSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-0 max-w-[1220px] mx-auto shadow-2xl rounded-3xl overflow-hidden">
           
           {/* Left Side - Contact Information */}
-          <div className="bg-[#2D3A67] p-8 sm:p-10 lg:p-12 text-white relative overflow-hidden col-span-2">
+          <div className="bg-[#2D3A67] ml-2.5 rounded-2xl my-2.5 p-8 sm:p-10 lg:p-12 text-white relative overflow-hidden col-span-2">
             <div className="relative z-10">
               <h2 className="text-2xl sm:text-3xl font-bold mb-3">
                 Contact Information
@@ -205,7 +205,7 @@ const ContactUsSection = () => {
                   onChange={handleChange}
                   className="w-full border-b-2 border-gray-300 focus:border-blue-600 outline-none py-2 px-1 text-gray-900 resize-none"
                   placeholder="Write your message.."
-                  style={{ height: '100px' }}
+                  style={{ height: '40px' }}
                 />
               </div>
 

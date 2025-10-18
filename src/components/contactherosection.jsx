@@ -7,7 +7,7 @@ const Contactherosection = () => {
              <section
       className=" flex relative items-center justify-center text-center h-[450px] bg-cover bg-center"
       style={{
-        backgroundImage: `url('/Wedding stage decorations 1.svg')`, // replace or remove (you said you'll add inline)
+        backgroundImage: `url('/assets/contact-bg.jpg')`, // replace or remove (you said you'll add inline)
       }}
     >
       {/* Overlay for better text visibility */}

@@ -9,7 +9,7 @@ const Portfoliopagesection = () => {
                         <div className="col-span-5">
                             <div className="flex gap-5">
                                 <div className=""><img src="/Elegant Wedding Decorations.svg" alt="" /></div>
-                                <div className=""><img src="/Manavarai Decoration - Wedding Planners in Coimbatore Tamilnadu India.svg" alt="" /></div>
+                                <div className=""><img src="/assets/Manavarai Decoration - Wedding Planners in Coimbatore Tamilnadu India.jpg" alt="" /></div>
                             </div>
                             <div className="flex gap-5 pt-5">
                                 <div className=""><img src="/latest wedding ceremony stage decoration ideas.svg" alt="" /></div>
@@ -22,8 +22,8 @@ const Portfoliopagesection = () => {
                             </div>
                         </div>
                         <div className="col-span-2 h-full">
-                            <div className="pb-5"><img className='h-full' src="/Home Decor Hacks For Your Wedding (1).svg" alt="" /></div>
-                            <div className=""><img className='h-full' src="/Chicken Milega Kya_ (1).svg" alt="" /></div>
+                            <div className="pb-5"><img className='' src="/assets/Home Decor Hacks For Your Wedding.jpg" alt="" /></div>
+                            <div className=""><img className=' ' src="/assets/Chicken Milega Kya_.jpg" alt="" /></div>
                         </div>
                     </div>
                 </div>

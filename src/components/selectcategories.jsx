@@ -33,31 +33,31 @@ const Selectcategories = () => {
                 <div className="flex items-center justify-center">
                     <img src="/Group 2.svg" alt="" />
                 </div>
-                <div className="text-[#FFFFFF] text-[16px] font-medium pt-2 text-center">Stages & Backdrops</div>
+                <div className="text-[#FFFFFF] text-[16px] font-medium pt-2 text-center">Baby Shower</div>
             </div>
              <div className="">
                 <div className="flex items-center justify-center">
                     <img src="/Union.svg" alt="" />
                 </div>
-                <div className="text-[#FFFFFF] text-[16px] font-medium pt-2 text-center">Stages & Backdrops</div>
+                <div className="text-[#FFFFFF] text-[16px] font-medium pt-2 text-center">House Warming</div>
             </div>
              <div className="">
                 <div className="flex items-center justify-center">
                     <img src="/Group 6.svg" alt="" />
                 </div>
-                <div className="text-[#FFFFFF] text-[16px] font-medium pt-2 text-center">Stages & Backdrops</div>
+                <div className="text-[#FFFFFF] text-[16px] font-medium pt-2 text-center">Birthday parties </div>
             </div>
              <div className="">
                 <div className="flex items-center justify-center">
                     <img src="/Group 7.svg" alt="" />
                 </div>
-                <div className="text-[#FFFFFF] text-[16px] font-medium pt-2 text-center">Stages & Backdrops</div>
+                <div className="text-[#FFFFFF] text-[16px] font-medium pt-2 text-center">Corporate Events</div>
             </div>
              <div className="">
                 <div className="flex items-center justify-center">
                     <img src="/Group 4.svg" alt="" />
                 </div>
-                <div className="text-[#FFFFFF] text-[16px] font-medium pt-2 text-center">Stages & Backdrops</div>
+                <div className="text-[#FFFFFF] text-[16px] font-medium pt-2 text-center">Decorations</div>
             </div>
         </div>
 

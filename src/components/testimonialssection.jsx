@@ -33,7 +33,7 @@ const TestimonialsSection = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <img
-          src="/testimonialsbackground.svg"
+          src="/assets/testimonial-bg.jpg"
           alt="Event Background"
           className="w-full h-full object-cover"
         />

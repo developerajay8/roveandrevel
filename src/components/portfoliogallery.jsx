@@ -12,14 +12,14 @@ const PortfolioGallery = () => {
       category: 'Weddings',
       title: 'Royal Wedding Celebration',
       description: 'Destination Wedding • 300 Guests',
-      image: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=800&h=600&fit=crop'
+      image: '/assets/portfolio-sample-image.png'
     },
     {
       id: 2,
       category: 'Events',
       title: 'Corporate Gala Night',
       description: 'Annual Conference • 500 Attendees',
-      image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=600&fit=crop'
+      image: '/assets/portfolio-sample-image2.png'
     },
     {
       id: 3,
@@ -56,7 +56,7 @@ const PortfolioGallery = () => {
     : portfolioItems.filter(item => item.category === activeTab);
 
   return (
-    <div className="min-h-screen bg-[#FCF8ED] py-10 px-4 sm:px-6 lg:px-8">
+    <div className=" bg-[#FCF8ED] py-10 px-4 sm:px-6 lg:px-8">
       <div className="max-w-[1240px] mx-auto">
         {/* Header */}
         <div className="text-center mb-12">

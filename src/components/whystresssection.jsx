@@ -155,7 +155,7 @@ const WhyStressSection = () => {
                                 </div>
                             </div>
                     <div className="text-[#5E5952] text-[24px] flex justify-end items-center">
-                                <img src="/image 123.svg" className='' alt="" />
+                                <img src="/assets/image 123.jpg" className='' alt="" />
                             </div>
             </div>
             
