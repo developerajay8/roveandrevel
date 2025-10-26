@@ -155,7 +155,7 @@ export default function NewsletterFooter() {
             </p>
             <div className="flex gap-6">
               <a
-                href="#terms"
+                href="/termsconditions"
                 className="text-[#DBDADB] transition-colors hover:text-[#D19B06]"
               >
                 Terms & Conditions

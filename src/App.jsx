@@ -8,6 +8,7 @@ import Services from "./pages/services/services";
 import Portfolio from "./pages/portfolio/portfolio";
 import Contact from "./pages/contact/contact";
 import PrivacyPolicy from "./pages/privacypolicy/privacypolicy";
+import Termsconditions from "./pages/termsconditions/termsconditions";
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+          <Route path="/termsconditions" element={<Termsconditions />} />
           
         </Routes>
       </main>
