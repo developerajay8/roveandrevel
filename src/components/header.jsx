@@ -12,6 +12,7 @@ export default function Header() {
       <div className="max-w-[1310px] mx-auto px-6 py-5 flex items-center justify-between">
         {/* Logo Section */}
         <div className="flex items-center gap-34">
+            <Link to="/" >
           <div className="flex items-center space-x-2">
             <img
               src="/new-logo 2.svg" // replace with your logo path
@@ -19,6 +20,8 @@ export default function Header() {
               className=" object-contain"
             />
           </div>
+            </Link>
+
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-17 text-[16px] font-medium text-[#121212]">

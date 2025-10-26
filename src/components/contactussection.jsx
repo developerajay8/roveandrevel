@@ -221,17 +221,15 @@ const ContactUsSection = () => {
                   <div className="w-10 h-10 flex items-center justify-center">
                     <Mail className="w-5 h-5" />
                   </div>
-                  <span className="text-base sm:text-lg">demo@gmail.com</span>
+                  <span className="text-base sm:text-lg">support@roveandrevel.com</span>
                 </div>
 
-                <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 flex items-center justify-center mt-1">
+                <div className="flex items-center gap-4">
+                  <div className="w-10 h-10 flex items-center justify-center ">
                     <MapPin className="w-5 h-5" />
                   </div>
                   <span className="text-base sm:text-lg leading-relaxed">
-                    132 Dartmouth Street Boston,
-                    <br />
-                    Massachusetts 02156 United States
+                   Rove & Revel HQ, Gujarat, India
                   </span>
                 </div>
               </div>

@@ -7,6 +7,7 @@ import NewsletterFooter from "./components/newsletterfooter";
 import Services from "./pages/services/services";
 import Portfolio from "./pages/portfolio/portfolio";
 import Contact from "./pages/contact/contact";
+import PrivacyPolicy from "./pages/privacypolicy/privacypolicy";
 
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/services" element={<Services />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/privacypolicy" element={<PrivacyPolicy />} />
           
         </Routes>
       </main>

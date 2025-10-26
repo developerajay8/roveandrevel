@@ -151,7 +151,7 @@ export default function NewsletterFooter() {
           {/* Bottom Footer */}
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-8 border-t-2 border-[#6F6D6D] text-[16px] ">
             <p className="text-center md:text-left text-[#DBDADB]">
-              Copyright © Designmonks All Rights Reserved
+             © 2025 Rove and Revel Events & Hospitality Private Limited. All rights reserved.
             </p>
             <div className="flex gap-6">
               <a
@@ -161,7 +161,7 @@ export default function NewsletterFooter() {
                 Terms & Conditions
               </a>
               <a
-                href="#privacy"
+                href="/privacypolicy"
                 className="text-[#DBDADB] transition-colors hover:text-[#D19B06]"
               >
                 Privacy Policy
