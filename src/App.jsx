@@ -8,14 +8,13 @@ import Services from "./pages/services/services";
 import Portfolio from "./pages/portfolio/portfolio";
 import Contact from "./pages/contact/contact";
 import PrivacyPolicy from "./pages/privacypolicy/privacypolicy";
-import Termsconditions from "./pages/termsconditions/termsconditions";
-
+import Termsconditions from "./pages/privacypolicy/privacypolicy";
 
 const App = () => {
   return (
     <Router>
       <Header />
-      
+
       <main className="">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -25,10 +24,9 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacypolicy" element={<PrivacyPolicy />} />
           <Route path="/termsconditions" element={<Termsconditions />} />
-          
         </Routes>
       </main>
-    <NewsletterFooter/>
+      <NewsletterFooter />
     </Router>
   );
 };
